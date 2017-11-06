@@ -1,0 +1,25 @@
+{
+    "name": "@bss/core",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/main.js",
+    "scripts": {
+        "test": "ava",
+        "prepublish": "tsc -p tsconfig.build.json"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@bss/utils": "^1.0.0",
+        "@types/node": "^8.0.28",
+        "minimist": "^1.2.0"
+    },
+    "devDependencies": {
+        "ava": "^0.22.0",
+        "typescript": "^2.5.2"
+    },
+    "ava": {
+        "files": ["lib/**/*.spec.js"]
+    }
+}
