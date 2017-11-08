@@ -22,7 +22,7 @@
         "files": ["lib/**/*.spec.js"]
     },
     "hexDependencies": {
-        "git@github.com:bpmsoasolutions/hexin-modules-test.git": {
+        "https://github.com/bpmsoasolutions/hexin-modules-test.git": {
             "@bss/utils": "^1.0.0"
         }
     }
