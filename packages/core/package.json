@@ -23,7 +23,7 @@
     },
     "hexDependencies": {
         "https://github.com/bpmsoasolutions/hexin-modules-test.git": {
-            "@bss/utils": "^1.0.0"
+            "@bss/utils": "1.0.0"
         }
     }
 }
