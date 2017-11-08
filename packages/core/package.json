@@ -1,5 +1,5 @@
 {
-    "name": "@bss/core",
+    "name": "@bss-test/core",
     "version": "1.0.0",
     "description": "",
     "main": "lib/main.js",
@@ -11,7 +11,6 @@
     "author": "",
     "license": "MIT",
     "dependencies": {
-        "@bss/utils": "^1.0.0",
         "@types/node": "^8.0.28",
         "minimist": "^1.2.0"
     },
@@ -21,5 +20,10 @@
     },
     "ava": {
         "files": ["lib/**/*.spec.js"]
+    },
+    "hexDependencies": {
+        "git@github.com:bpmsoasolutions/hexin-modules-test.git": {
+            "@bss/utils": "^1.0.0"
+        }
     }
 }
