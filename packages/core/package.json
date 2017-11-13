@@ -13,7 +13,7 @@
     "dependencies": {
         "@types/node": "^8.0.28",
         "minimist": "^1.2.0",
-        "@bss-local/utils": "^1.0.0"
+        "@bss/utils": "^1.0.0"
     },
     "devDependencies": {
         "ava": "^0.22.0",
@@ -24,7 +24,7 @@
     },
     "hexDependencies": {
         "https://github.com/bpmsoasolutions/hexin-modules-test.git": {
-            "@bss-local/utils": "1.0.0"
+            "@bss/utils": "1.0.0"
         }
     }
 }

@@ -3,7 +3,7 @@
     "compilerOptions": {
         "baseUrl": "./packages",
         "paths": {
-            "@bss-local/*": ["./*/src"]
+            "@bss/*": ["./*/src"]
         }
     }
 }
