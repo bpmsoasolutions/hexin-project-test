@@ -1,5 +1,5 @@
 {
-    "name": "@bss-test/core",
+    "name": "@bss-local/core",
     "version": "1.0.0",
     "description": "",
     "main": "lib/main.js",
@@ -13,7 +13,7 @@
     "dependencies": {
         "@types/node": "^8.0.28",
         "minimist": "^1.2.0",
-        "_bss_utils_": "^1.0.0"
+        "@bss-local/utils": "^1.0.0"
     },
     "devDependencies": {
         "ava": "^0.22.0",
@@ -24,7 +24,7 @@
     },
     "hexDependencies": {
         "https://github.com/bpmsoasolutions/hexin-modules-test.git": {
-            "_bss_utils_": "1.0.0"
+            "@bss-local/utils": "1.0.0"
         }
     }
 }
