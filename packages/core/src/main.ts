@@ -1,4 +1,4 @@
-import { makeHello } from "@bss-local/utils";
+import { makeHello } from "@bss/utils";
 
 export function cli() {
     let result = makeHello();
